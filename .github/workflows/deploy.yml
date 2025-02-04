@@ -20,3 +20,4 @@ jobs:
           r2-bucket: ${{ secrets.R2_BUCKET }}
           source-dir: clients
           destination-dir: ./
+          keep-files-fresh: true
