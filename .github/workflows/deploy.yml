@@ -11,6 +11,9 @@ jobs:
     environment: production
 
     steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
       - name: R2 Upload
         uses: ryand56/r2-upload-action@latest
         id: r2_upload
