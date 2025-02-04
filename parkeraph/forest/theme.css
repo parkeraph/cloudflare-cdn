@@ -1,0 +1,8 @@
+
+:root {
+  --color-background:  #181818;
+  --color-text: rgba(235, 235, 235, 0.64);
+  --color-border: rgba(57, 56, 56, 0.583);
+  --color-affordance: rgb(190, 190, 190);
+  --color-affordance-50: rgba(190, 190, 190, 0.50)
+}
