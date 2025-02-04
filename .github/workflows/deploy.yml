@@ -22,6 +22,10 @@ jobs:
           destination-dir: ./
           keep-file-fresh: true
 
-      - name: output
+      - name: File Paths
         run: |
           echo "yand56/r2-upload-action@latest.outputs.file-urls"  # Reference output from previous step
+
+      - name: Results
+        run: |
+          echo "yand56/r2-upload-action@latest.outputs.result"  # Reference output from previous step
