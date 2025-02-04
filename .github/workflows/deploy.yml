@@ -23,12 +23,8 @@ jobs:
           r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
           r2-bucket: ${{ secrets.R2_BUCKET }}
           source-dir: ./clients
-          destination-dir: ./clients
+          destination-dir: ./
           keep-file-fresh: false
-
-      - name: File Paths
-        run: |
-          echo "${{steps.r2_upload.outputs.file-urls}}"  # Reference output from previous step
 
       - name: Results
         run: |
